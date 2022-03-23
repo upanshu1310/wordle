@@ -62,7 +62,7 @@ class Key {
       text(this.value, this.x + 50, this.y + 37.5);
     } else if (this.index == 27) {
       textSize(45);
-      text("⌫", this.x + 50, this.y + 40);
+      text(this.value, this.x + 50, this.y + 40);
     }
     pop();
     textAlign(CENTER, CENTER);

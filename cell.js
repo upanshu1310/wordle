@@ -22,7 +22,7 @@ class Cell {
     square(this.x, this.y, this.side)
     push()
     fill(255);
-    textSize(75)
+    textSize(60)
     textAlign(CENTER, CENTER);
     text(this.value, this.x + 50, this.y+55);
     pop()
@@ -32,7 +32,7 @@ class Cell {
     this.value = char;
   }
   
-  update() {
-    this.side += 10;
-  }
+  // update() {
+  //   this.side += 10;
+  // }
 }
