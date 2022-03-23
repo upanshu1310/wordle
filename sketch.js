@@ -73,20 +73,19 @@ function setup() {
     temp_key = new Key(i, keyOrder[i]);
     keys.push(temp_key);
   }
-  //frameRate()
 }
 
 function draw() {
-  //if (frameCount + frameRate * 2 > gameOver) {
-
+  
   background(0);
   noStroke();
-
+  
   for (let r = 0; r < rows.length; r++) {
     for (let i = 0; i < rows[r].length; i++) {
       rows[r][i].show();
     }
   }
+  
   for (let i = 0; i < 28; i++) {
     keys[i].show();
   }
